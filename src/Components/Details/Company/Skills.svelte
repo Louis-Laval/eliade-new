@@ -4,6 +4,8 @@
 
     const services = serviceService.getServices();
     const linkAll = serviceService.getLinkAll();
+
+    window.scrollTo(0,0);
 </script>
 
 <h1 class="title">Métiers et compétences</h1>
@@ -62,7 +64,7 @@
     text-decoration: none;
     display: inline-block;
     transition: 0.5s;
-    margin: 15px 0px;
+    margin: 10px 0px;
   }
 
   a:hover {
