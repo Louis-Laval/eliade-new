@@ -1,26 +1,15 @@
 <script>
   import Navbar from "./Components/Navbar/Navbar.svelte";
-  import Banner from "./Components/Banner/Banner.svelte";
-  import Services from "./Components/Services/Services.svelte";
-  import About from "./Components/About/About.svelte";
-  import Testimonials from "./Components/Testimonials/Testimonials.svelte";
-  import Social from "./Components/Social/Social.svelte";
+  import Home from "./Components/Home/Home.svelte";
   import Footer from "./Components/Footer/Footer.svelte";
-  import DATA from "./Data/data";
-  console.log(DATA);
+  import Router from "svelte-spa-router";
+  import { routes } from "./Config/routes";
+  import { getNavbarData, getFooterData, getHeader } from "./Business/commonService";
 </script>
 
 <!-- Navbar -->
-<Navbar navlists={DATA.NAVBAR_DATA} header={DATA.HEADER} />
+<Navbar navlists={getNavbarData()} />
 <!-- Banner -->
-<Banner bannerData={DATA.BANNER_DATA} } />
-<!-- Services -->
-<Services serviceData={DATA.SERVICE_DATA} />
-<!-- About -->
-<About aboutData={DATA.ABOUT_DATA} />
-<!-- Testimonials -->
-<Testimonials testimonialData={DATA.TESTIMONIAL_DATA} />
-<!-- Social Media -->
-<Social socialData={DATA.SOCIAL_DATA} />
+<Router {routes}/>
 <!-- Footer -->
-<Footer footerData={DATA.FOOTER_DATA} header={DATA.HEADER} />
+<Footer footerData={getFooterData()} header={getHeader()} />
