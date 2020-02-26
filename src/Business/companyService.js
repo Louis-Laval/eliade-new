@@ -12,7 +12,7 @@ let company = [
         page: baseUrl + "certifications"
     },
     {
-        label: "Métiers et compétences",
+        label: "Pôles de compétences",
         description: "",
         image: "images/service3.png",
         page: baseUrl + "skills"

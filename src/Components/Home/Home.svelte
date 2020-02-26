@@ -10,15 +10,9 @@
   import { getSocialData, getBannerData } from "../../Business/commonService";
 </script>
 
-<!-- Banner -->
 <Banner bannerData={getBannerData()} />
-<!-- Company -->
 <Sections section="company" heading="Notre entreprise"  sectionList={companyService.getCompany()}/>
-<!-- Services -->
 <Sections section="services" heading="Nos services" backgroundColor="grey-bgcolor" linkAll={serviceService.getLinkAll()}  sectionList={serviceService.getServices()}/>
-<!-- Offers -->
 <Sections section="offers" heading="Nos offres" sectionList={offerService.getOffers()}/>
-<!-- Partners -->
 <Sections section="partners" heading="Nos partenaires" backgroundColor="grey-bgcolor" linkAll={partnerService.getLinkAll()} sectionList={partnerService.getPartners()}/>
-<!-- Social Media -->
 <Social socialData={getSocialData()} />

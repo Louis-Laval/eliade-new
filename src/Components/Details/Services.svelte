@@ -1,34 +1,39 @@
 <script>
     import * as serviceService from "../../Business/serviceService";
-    import DataBI from "./Services/DataBI.svelte";
+    import { beforeUpdate } from 'svelte';
+
+    export let params = {};
 
     let services = serviceService.getServices();
 
-    window.scrollTo(0,0);
+    let autoScroll = () => {
+      if(params.service){
+        let dataSection = document.getElementById(params.service);
+        let headerOffset = 60;
+        
+        if(dataSection){
+          let dataSectionPos = dataSection.offsetTop;
+          let offsetPosition = dataSectionPos - headerOffset;
 
-    let goToData = () => {
-      let dataSection = document.getElementById('data');
-      let headerOffset = 60;
-      let dataSectionPos = dataSection.offsetTop;
-      let offsetPosition = dataSectionPos - headerOffset;
-
-      window.scrollTo({
-          top: offsetPosition
-      });
+          window.scrollTo({
+              top: offsetPosition
+          });
+        }
+      }
+      else {
+        window.scrollTo(0,0);
+      }
     };
+
+    beforeUpdate(autoScroll);
 </script>
 
-<button on:click={goToData}>Click here</button>
 {#each services as { label, text, section }}
   <section id={section}>
-    {#if label === "Data/BI"}
-      <DataBI />
-    {:else}
       <div class="section grey-bgcolor">
         <h1 class="title">{label}</h1>
         <p class="description">{@html text}</p>
       </div>
-    {/if}
   </section>
 {/each}
 

@@ -1,11 +1,15 @@
 <script>
     import * as partnerService from "../../Business/partnerService";
     import * as util from "../../Business/Common/util";
+    import { beforeUpdate } from 'svelte';
+
+    export let params = {};
 
     let currentVideo;
     let shouldDisplay;
     let nextVideo;
     let previousVideo;
+    let click = false;
 
     let videos = partnerService.getPartners();
 
@@ -22,15 +26,28 @@
     let goToPreviousLink = () => {
         currentVideo = videos[util.getPreviousIndex(currentVideo.index, videos)];
         updateCurrentDisplay();
+        click = true;
     };
 
     let goToNextLink = () => {
         currentVideo = videos[util.getNextIndex(currentVideo.index, videos)];
         updateCurrentDisplay();
+        click = true;
     };
 
-    currentVideo = videos[0];
-    updateCurrentDisplay();
+    let autoTurn = () => {
+        if(!click){
+            if(params.id){
+                currentVideo = videos[params.id];
+            }
+            else {
+                currentVideo = videos[0];
+            }
+            updateCurrentDisplay();
+        }
+    };
+
+    beforeUpdate(autoTurn);
 
     window.scrollTo(0,0);
 </script>

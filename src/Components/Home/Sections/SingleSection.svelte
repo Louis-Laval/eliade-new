@@ -39,6 +39,10 @@
     text-decoration: none;
   }
 
+  .link {
+    transition: 0.7s;
+  }
+
   .link:hover {
     box-shadow: 10px 10px 20px 5px #b2c7d1;
   }
