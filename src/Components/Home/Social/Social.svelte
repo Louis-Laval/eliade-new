@@ -2,9 +2,7 @@
   export let socialData = {};
   const { socials, title } = socialData;
 </script>
-<!------------------------------------------->
-<!----------------MARKUP----------------------->
-<!------------------------------------------->
+
 <section id="social-media" class="section">
   <div class="container text-center">
     <h2 class="title text-center">{title}</h2>
@@ -17,9 +15,7 @@
     </div>
   </div>
 </section>
-<!------------------------------------------->
-<!----------------STYLE----------------------->
-<!------------------------------------------->
+
 <style>
   .social-icons img {
     width: 75px;

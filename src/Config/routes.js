@@ -3,18 +3,15 @@ import Partners from '../Components/Details/Partners.svelte';
 import Services from '../Components/Details/Services.svelte';
 import Certifications from '../Components/Details/Company/Certifications.svelte';
 import Skills from '../Components/Details/Company/Skills.svelte';
+import Recruiting from '../Components/Details/Company/Recruiting.svelte';
 import Offers from '../Components/Details/Offers.svelte';
-
-// import NotFound from './routes/NotFound.svelte'
 
 export const routes = {
     "/": Home,
-    "/partners/:id?": Partners,
-    "/services/:service?": Services,
+    "/company/recruiting": Recruiting,
     "/company/certifications": Certifications,
     "/company/skills": Skills,
+    "/services/:service?": Services,
     "/offers/:offer?": Offers,
-    // // Catch-all
-    // // This is optional, but if present it must be the last
-    // '*': NotFound,
+    "/partners/:id?": Partners
 }

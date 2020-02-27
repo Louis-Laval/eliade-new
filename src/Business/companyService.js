@@ -3,7 +3,8 @@ let company = [
     {
         label: "Recrutement",
         description: "Toutes nos offres d'emploi.",
-        image: "images/service1.png"
+        image: "images/service1.png",
+        page: baseUrl + "recruiting"
     },
     {
         label: "Nos certifications",
@@ -16,11 +17,6 @@ let company = [
         description: "",
         image: "images/service3.png",
         page: baseUrl + "skills"
-    },
-    {
-        label: "Nos évènements",
-        description: "",
-        image: "images/service1.png"
     }
 ];
 

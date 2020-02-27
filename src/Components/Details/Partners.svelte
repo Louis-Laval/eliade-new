@@ -55,8 +55,9 @@
 <div class="section resp-container grey-bgcolor">
     <button on:click={goToPreviousLink} class="btn btn-primary round-border"><i class="left"></i><div  class="button-label">{previousVideo.label}</div></button>
     {#if shouldDisplay}
-        <iframe src={currentVideo.url} title={currentVideo.label} class="resp-iframe">
-        </iframe>
+        <div class="video">
+            <iframe src={currentVideo.url} title={currentVideo.label} class="resp-iframe"></iframe>
+        </div>
     {/if}
     <div class="description">
         <h1>{currentVideo.label}</h1>
@@ -70,18 +71,21 @@
         position: relative;
         overflow: hidden;
         padding-top: 2%;
-        height: 500px;
         display: flex;
     }
 
-    .resp-iframe {
+    .video {
         position: relative;
         width: 50%;
-        height: 88.5%;
-        border: 0;
+        padding-top: 28.125%;
+    }
+
+    .resp-iframe {
+        position: absolute;
         top: 0;
-        padding-top: 2%;
-        padding-bottom: 0%;
+        width: 100%;
+        height: 100%;
+        border: none;
     }
     
     .btn-primary {

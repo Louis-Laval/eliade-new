@@ -25,7 +25,7 @@ let partners = [
         description: "L'un des leaders mondiaux dans les communications audio pour les entreprises et le grand public.",
         image: "images/service3.png",
         id: "poly",
-        url: "https://www.youtube.com/embed/mA1qCnk4Lg4",
+        url: "https://www.youtube.com/embed/llHa5vUq5PI",
         text: "Depuis <b>50 ans</b>, Poly explore toutes les facettes <b>des technologies audio et propose des produits innovants</b> qui permettent à tous de communiquer, simplement. Des solutions de <b>communication unifiée</b> aux oreillettes Bluetooth, Plantronics offre une qualité sans compromis, <b>une expérience conviviale</b> et un service irréprochable.<br><br>Poly est aujourd'hui utilisé par toutes les entreprises du « Fortune 100 », ainsi que par le centre des urgences 911, le contrôle du trafic aérien et le New York Stock Exchange.<br><br>Depuis les communications unifiées jusqu'aux micro-casques et oreillettes Bluetooth, les produits Poly <b>simplifient la communication</b>.",
         index: 2,
         page: baseUrl + 2

@@ -40,7 +40,7 @@
         <input
           type="email"
           class="form-control round-border"
-          placeholder="Your Email" />
+          placeholder="Votre adresse email" />
         <button type="button" class="btn btn-primary round-border">
           {subscribe}
         </button>

@@ -14,15 +14,6 @@ const navbarData = [
   { id: 5, url: "#contacts", label: "Contacts" }
 ];
 
-const bannerData = {
-  title: "Go digital with eliade",
-  description:
-    "Eliade can help you skyrocket the ROI of your marketing campaign without having to spend tons of money or time to assemble an in-house team.",
-  tutorialUrl:
-    "https://www.thinkwithgoogle.com/intl/en-gb/marketing-resources/programmatic/google-digital-academy/",
-  watchTutorial: "Watch Tutorials"
-};
-
 const footerData = {
   description:
     "Créée en 2001, Eliade est une société de services experte des solutions Microsoft, qui se place aujourd'hui comme un acteur incontournable dans la région des Hauts de France.",
@@ -40,6 +31,5 @@ const header = "Eliade";
 
 export const getSocialData = () => socialData;
 export const getNavbarData = () => navbarData;
-export const getBannerData = () => bannerData;
 export const getFooterData = () => footerData;
 export const getHeader = () => header;
