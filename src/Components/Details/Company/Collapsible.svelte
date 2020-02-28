@@ -25,6 +25,7 @@
         <li>Identité / Infrastructure Onprem-Cloud / Communication / Sécurité</li>
         <li>Data / BI / Développement .NET</li>
     </ul>
+
     <h4>Quelle opportunité ?</h4>
     <p>Nous nous développons, et pour cela, nous avons besoin de vous !<br>Rattaché(e) au Directeur Technique, Yann, vous aurez pour mission de prendre en charge les demandes d'incidents de nos clients au sein de notre équipe Manageo.</p>
     Vous ferez face à des challenges techniques et interviendrez sur les thématiques suivantes :
@@ -35,6 +36,7 @@
         <li>Intervention sur site si la situation l'exige</li>
     </ul>
     <p>Vous serez également amené(e) à accompagner les consultants d'Eliade afin de suivre les prestations d'intégration et monter en compétences sur les solutions Microsoft.</p>
+    
     <h4>Vous souhaitez nous rejoindre ?</h4>
     Vous ...
     <ul>
@@ -45,6 +47,7 @@
         <li>Et surtout, vous avez la volonté de monter en compétence, de travailler dans une équipe soudée, où la proximité et l'écoute sont les maîtres-mots du quotidien ?</li>
     </ul>
     <p>Alors rejoignez-nous !<br><br>Petit bonus : Sportif(ve) ? Nos collaborateurs seront heureux de vous intégrer dans leurs programmes d’entrainement !</p>
+    
     <h4>Quels avantages ?</h4>
     <ul>
         <li>Ordinateur portable, abonnement Office 365 E5 avec téléphonie Teams et souscription Azure</li>
@@ -52,6 +55,7 @@
         <li>Mutuelle familiale</li>
         <li>Tickets restaurants</li>
     </ul>
+    
     <h4>C'est quoi la suite ?</h4>
     <h6>Vous êtes intéressé(e) ? Nous aussi !</h6>
     <p>Le processus de recrutement chez Eliade inclut l’ensemble des collaborateurs.<br>En plus de réunir un panel d’experts, nous estimons que la cohésion d’équipe importe tout autant que le savoir-faire technique.<br>À la suite d’un premier entretien téléphonique, vous serez amené(e) à rencontrer vos futur(e)s collègues pour échanger autour de vos domaines de compétences, votre expérience et vos autres passions.</p>
