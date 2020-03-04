@@ -1,0 +1,17 @@
+c:\users\louislaval\source\repos\Eliade\EliadeAPI\bin\Debug\netcoreapp2.1\EliadeAPI.deps.json
+c:\users\louislaval\source\repos\Eliade\EliadeAPI\bin\Debug\netcoreapp2.1\EliadeAPI.runtimeconfig.json
+c:\users\louislaval\source\repos\Eliade\EliadeAPI\bin\Debug\netcoreapp2.1\EliadeAPI.runtimeconfig.dev.json
+c:\users\louislaval\source\repos\Eliade\EliadeAPI\bin\Debug\netcoreapp2.1\EliadeAPI.dll
+c:\users\louislaval\source\repos\Eliade\EliadeAPI\bin\Debug\netcoreapp2.1\EliadeAPI.pdb
+c:\users\louislaval\source\repos\Eliade\EliadeAPI\obj\Debug\netcoreapp2.1\EliadeAPI.csprojAssemblyReference.cache
+c:\users\louislaval\source\repos\Eliade\EliadeAPI\obj\Debug\netcoreapp2.1\EliadeAPI.csproj.CoreCompileInputs.cache
+c:\users\louislaval\source\repos\Eliade\EliadeAPI\obj\Debug\netcoreapp2.1\EliadeAPI.RazorAssemblyInfo.cache
+c:\users\louislaval\source\repos\Eliade\EliadeAPI\obj\Debug\netcoreapp2.1\EliadeAPI.RazorAssemblyInfo.cs
+c:\users\louislaval\source\repos\Eliade\EliadeAPI\obj\Debug\netcoreapp2.1\EliadeAPI.AssemblyInfoInputs.cache
+c:\users\louislaval\source\repos\Eliade\EliadeAPI\obj\Debug\netcoreapp2.1\EliadeAPI.AssemblyInfo.cs
+c:\users\louislaval\source\repos\Eliade\EliadeAPI\obj\Debug\netcoreapp2.1\EliadeAPI.RazorTargetAssemblyInfo.cache
+c:\users\louislaval\source\repos\Eliade\EliadeAPI\obj\Debug\netcoreapp2.1\EliadeAPI.dll
+c:\users\louislaval\source\repos\Eliade\EliadeAPI\obj\Debug\netcoreapp2.1\EliadeAPI.pdb
+C:\Users\LouisLAVAL\source\repos\Eliade\EliadeAPI\bin\Debug\netcoreapp2.1\Services.dll
+C:\Users\LouisLAVAL\source\repos\Eliade\EliadeAPI\bin\Debug\netcoreapp2.1\Services.pdb
+C:\Users\LouisLAVAL\source\repos\Eliade\EliadeAPI\obj\Debug\netcoreapp2.1\EliadeAPI.csproj.CopyComplete

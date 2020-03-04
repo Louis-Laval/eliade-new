@@ -1,0 +1,17 @@
+c:\users\louislaval\source\repos\Eliade\Services.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+c:\users\louislaval\source\repos\Eliade\Services.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+c:\users\louislaval\source\repos\Eliade\Services.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+c:\users\louislaval\source\repos\Eliade\Services.Tests\bin\Debug\netcoreapp2.1\Services.Tests.deps.json
+c:\users\louislaval\source\repos\Eliade\Services.Tests\bin\Debug\netcoreapp2.1\Services.Tests.runtimeconfig.json
+c:\users\louislaval\source\repos\Eliade\Services.Tests\bin\Debug\netcoreapp2.1\Services.Tests.runtimeconfig.dev.json
+c:\users\louislaval\source\repos\Eliade\Services.Tests\bin\Debug\netcoreapp2.1\Services.Tests.dll
+c:\users\louislaval\source\repos\Eliade\Services.Tests\bin\Debug\netcoreapp2.1\Services.Tests.pdb
+c:\users\louislaval\source\repos\Eliade\Services.Tests\bin\Debug\netcoreapp2.1\Services.dll
+c:\users\louislaval\source\repos\Eliade\Services.Tests\bin\Debug\netcoreapp2.1\Services.pdb
+c:\users\louislaval\source\repos\Eliade\Services.Tests\obj\Debug\netcoreapp2.1\Services.Tests.csprojAssemblyReference.cache
+c:\users\louislaval\source\repos\Eliade\Services.Tests\obj\Debug\netcoreapp2.1\Services.Tests.csproj.CoreCompileInputs.cache
+c:\users\louislaval\source\repos\Eliade\Services.Tests\obj\Debug\netcoreapp2.1\Services.Tests.AssemblyInfoInputs.cache
+c:\users\louislaval\source\repos\Eliade\Services.Tests\obj\Debug\netcoreapp2.1\Services.Tests.AssemblyInfo.cs
+c:\users\louislaval\source\repos\Eliade\Services.Tests\obj\Debug\netcoreapp2.1\Services.Tests.csproj.CopyComplete
+c:\users\louislaval\source\repos\Eliade\Services.Tests\obj\Debug\netcoreapp2.1\Services.Tests.dll
+c:\users\louislaval\source\repos\Eliade\Services.Tests\obj\Debug\netcoreapp2.1\Services.Tests.pdb
